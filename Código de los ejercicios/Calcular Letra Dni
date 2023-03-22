@@ -1,0 +1,27 @@
+
+def LetraDocumento():
+
+    # Pedimos el número del documento nacional de identidad y lo convertimos a entero
+    numero = input("Introduzca únicamente los números de su DNI: ")
+
+    # Comprobamos que el número introducido es un número
+    intnumero = int(numero)
+
+    # Creamos un diccionario con las letras del DNI
+    dic = {0: "T", 1: "R", 2: "W", 3: "A", 4: "G", 5: "M",
+                   6: "Y", 7: "F", 8: "P", 9: "D", 10: "X", 11: "B",
+                   12: "N", 13: "J", 14: "Z", 15: "S", 16: "Q", 17: "V",
+                   18: "H", 19: "L", 20: "C", 21: "K", 22: "E"
+                   }
+
+    # Calculamos el resto de la división del número del DNI entre 23
+    resto = intnumero % 23
+
+    # Dividir el número del DNI entre 23.
+    # Tomar el resto de la división anterior.
+    # Buscar en una tabla o diccionario la letra correspondiente al resto obtenido en el paso anterior.
+    letra = dic[resto]
+
+    print("Su letra del DNi es", letra)
+
+LetraDocumento()
