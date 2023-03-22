@@ -1,4 +1,4 @@
-
+# Crear un programa que pida al usuario su número de DNI y muestre por pantalla la letra que le corresponde.
 def LetraDocumento():
 
     # Pedimos el número del documento nacional de identidad y lo convertimos a entero
@@ -22,6 +22,8 @@ def LetraDocumento():
     # Buscar en una tabla o diccionario la letra correspondiente al resto obtenido en el paso anterior.
     letra = dic[resto]
 
+    # Mostramos el resultado
+    print("El residuo de su número es: ", resto)
     print("Su letra del DNi es", letra)
 
 LetraDocumento()
