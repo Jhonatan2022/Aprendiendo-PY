@@ -26,7 +26,9 @@
 Evidencias de aprendizaje python
 <hr>
 https://programacionpython80889555.wordpress.com/category/juegos-con-python/
+
 ***************************************************************************************
+
 https://www.freecodecamp.org/espanol/news/25-proyectos-en-python-para-principiantes/
 ****************************************************************************************
 https://code.intef.es/prop_didacticas/pygame-realizando-juegos-con-python/
