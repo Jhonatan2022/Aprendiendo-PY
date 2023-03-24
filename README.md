@@ -41,8 +41,9 @@ https://code.intef.es/prop_didacticas/pygame-realizando-juegos-con-python/
 <hr>
 https://levelup.gitconnected.com/writing-tetris-in-python-2a16bddb5318 
 
-
-
 <hr>
 
 https://www.lawebdelprogramador.com/codigo/usuario.php?id=352736
+
+<hr>
+https://github.com/mouredev/retos-programacion-2023
