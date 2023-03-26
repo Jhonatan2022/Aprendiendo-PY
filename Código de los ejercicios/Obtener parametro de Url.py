@@ -23,4 +23,4 @@ def valordespuesdemetro(link):
     print(lista)
 
 # Probamos la función con la URL dada en el ejemplo mas otros valores que se pueden agregar
-valordespuesdemetro('https://retosdeprogramacion.com?year=2023&challenge=0&reto=11&random=ladrillos&nombre=jhonatan')
+valordespuesdemetro('https://retosdeprogramacion.com?sossa=lesabe&challenge=0&reto=11&random=ladrillos&nombre=jhonatan')
