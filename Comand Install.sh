@@ -1,5 +1,4 @@
-# Comand generate requirements.sh
-
+# Comando para crear los requerimientos de la aplicacion
 pip freeze > requirements.sh
 # or pip freeze > requirements.txt
 
