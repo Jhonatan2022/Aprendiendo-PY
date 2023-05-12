@@ -12,8 +12,10 @@ from tabulate import tabulate
 # Creamos una variable para almacenar el nombre del archivo excel y usamos la función load_workbook para cargar el archivo
 excel = openpyxl.load_workbook("personas.xlsx")
 
+
 # Creamos una variable para sacar le libro que está activo
 libro_activo = excel.active
+
 
 # Creamos una lista vacía para almacenar los datos
 datos = []
@@ -45,6 +47,7 @@ headers = ["#", "ID", "Nombre", "Company", "Email", "Mac_Adress"]
 # Alineamos los encabezados de manera central
 # Usamos len para saber cuantos encabezados hay y multiplicamos por "center" para que todos los encabezados se alineen al centro
 header_align = (("center",) * len(headers))
+
 
 # Imprimimos los datos en forma de tabla
 # Usamos tabulate para imprimir los datos en forma de tabla
