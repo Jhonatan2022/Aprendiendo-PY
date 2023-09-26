@@ -3,7 +3,7 @@
 import pyshorteners
 
 # URL a acortar
-url = 'https://github.com/jhonatan2022'
+url = "https://github.com/jhonatan2022"
 
 # Crear el objeto
 s = pyshorteners.Shortener()
@@ -12,4 +12,4 @@ s = pyshorteners.Shortener()
 short = s.tinyurl.short(url)
 
 # Acortar la URL
-print('La url acortada es: ', short)
+print("La url acortada es: ", short)
