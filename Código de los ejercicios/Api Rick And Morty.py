@@ -20,9 +20,8 @@ image_url = data["image"]
 
 # Leemos la imagen desde la URL utilizando la librería urllib.request
 with urlopen(image_url) as url:
-
     # Guardamos la imagen en un archivo
-    image = plt.imread(url, format='jpg')
+    image = plt.imread(url, format="jpg")
 
 # Mostramos la imagen utilizando la librería matplotlib
 plt.imshow(image)

@@ -14,5 +14,5 @@ up = s.upload()
 down = s.download()
 
 # Imprimir los resultados
-print('La velocidad de subida es: ', up ,'Mbps')
-print('La velocidad de bajada es: ', down, ' Mbps')
+print("La velocidad de subida es: ", up, "Mbps")
+print("La velocidad de bajada es: ", down, " Mbps")

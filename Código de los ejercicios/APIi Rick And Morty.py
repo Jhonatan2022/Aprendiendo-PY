@@ -21,7 +21,6 @@ response = requests.get(image_url)
 
 # Guardamos la imagen en un archivo
 with open(f"{name}.jpg", "wb") as f:
-
     # Escribimos la imagen en el archivo
     f.write(response.content)
 

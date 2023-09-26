@@ -4,16 +4,19 @@
 
 from PIL import Image
 import numpy as np
+
 # para ello usaremos la libreria requests
 import requests
+
 # Implementaremos la libreria de matplotlib para poder graficar
 import matplotlib.pyplot as plt
+
 # Implementaremos la libreria matplotlib image para poder mostrar imagenes
 import matplotlib.image as img
 
 
 # Crearemos una variable pere pedirle informacion al usuario
-pokemon = input('Ingrese el nombre del pokemon: ')
+pokemon = input("Ingrese el nombre del pokemon: ")
 
 # Crearemos una variable para poder usar la api de pokemon debemos usar la url de la api
 # Concatena la url con el pokemon que el usuario ingreso
@@ -29,7 +32,7 @@ res = requests.get(url)
 # Si el pokemon existe nos devolvera un 200
 # Si el pokemon no existe nos devolvera un 404
 if res.status_code != 200:
-    print('Ese pokemon no existe :(')
+    print("Ese pokemon no existe :(")
     # Si el pokemon no existe salimos del programa para romper el ciclo if
     exit()
 
@@ -38,7 +41,7 @@ if res.status_code != 200:
 # Le pasamos como parametro la url de la imagen
 # Le pasamos como parametro la imagen
 # Mostramos la imagen
-imagen = res.json()['sprites']['front_default']
+imagen = res.json()["sprites"]["front_default"]
 
 # Obtendremos el nombre del pokemon que ingreso el usuario
 # Usamos la libreria matplotlib

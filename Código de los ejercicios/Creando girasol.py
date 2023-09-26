@@ -1,5 +1,6 @@
 # Importamos la libreria de math
 import math
+
 # Importamos la librería turtle
 import turtle
 from turtle import onkeypress, bye, done, listen
@@ -14,9 +15,9 @@ turtle.fillcolor("brown")
 phi = 137.508 * (math.pi / 180.0)
 
 # Creamos un bucle para dibujar 100 estrellas
-for i in range (160 + 40):
+for i in range(160 + 40):
     r = 4 * math.sqrt(i)
-    theta = i * phi 
+    theta = i * phi
     x = r * math.cos(theta)
     y = r * math.sin(theta)
 
@@ -29,7 +30,7 @@ for i in range (160 + 40):
     # Creamos una condición para dibujar una estrella de color amarillo
     if i < 160:
         turtle.stamp()
-    else: 
+    else:
         turtle.fillcolor("yellow")
         turtle.begin_fill()
         turtle.right(20)
@@ -45,7 +46,7 @@ for i in range (160 + 40):
 # Ocultamos la tortuga
 turtle.hideturtle()
 
-#Oprimir q para salir
-onkeypress(bye, 'q')
+# Oprimir q para salir
+onkeypress(bye, "q")
 listen()
 done()
