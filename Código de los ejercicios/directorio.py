@@ -1,4 +1,3 @@
-# Importar el módulo os para poder usar la función scandir
 import os
 
 # Directorio de ejemplo

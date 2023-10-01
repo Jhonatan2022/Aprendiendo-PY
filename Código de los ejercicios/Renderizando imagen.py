@@ -1,4 +1,3 @@
-# importamos open cv
 import cv2
 from cv2 import invert
 from cv2 import pencilSketch

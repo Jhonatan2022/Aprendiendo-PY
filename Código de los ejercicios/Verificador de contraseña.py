@@ -1,6 +1,3 @@
-# Crearemos un verificador de contraseñas
-
-# Definimos la función contraseña
 contraseña = False
 
 # Pedimos la contraseña

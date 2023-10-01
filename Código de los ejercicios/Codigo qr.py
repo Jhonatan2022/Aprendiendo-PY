@@ -1,7 +1,3 @@
-# pip install qrcode
-# pip install image
-# pip install pillow
-
 import qrcode
 
 # Generar el código QR
