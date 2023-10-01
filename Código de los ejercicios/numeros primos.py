@@ -1,9 +1,5 @@
 # Creamos una función para determinar si un número es primo o no
 def es_primo(n):
-    """
-    Esta función determina si un número es primo o no.
-    Devuelve True si es primo y False si no lo es.
-    """
     # Si el número es menor a 2, no es primo
     if n < 2:
         return False

@@ -1,7 +1,4 @@
-# En este documento estudiaremos un poco sobre el polimorfismo
-
 # Polimorfismo: Es la habilidad de tomar varias formas
-
 # Ejemplo: Tenemos una clase llamada Persona, y dos clases que heredan de Persona, que son Estudiante y Profesor
 
 
@@ -23,14 +20,12 @@ class Paredes(Persona):
         self.edad = edad
         self.sexo = sexo
 
-    # Creamos una función para mostrar los datos de la persona creada
     def datos(self):
         # Retornamos los datos de la persona creada
         # format es una función que nos permite darle formato a un string para que se muestre de la manera que queramos
         return "Nombre: {}, Edad: {}, Sexo: {}".format(
             self.nombre, self.edad, self.sexo
         )
-
 
 # Creamos una clase que hereda de Persona
 class Deivib(Persona):
@@ -49,18 +44,9 @@ class Deivib(Persona):
             self.nombre, self.nacionalidad, self.color
         )
 
-
-# Ingresamos los datos de las personas
-# Persona 1
 persona1 = Paredes("Eduard", 19, "Todos los dias")
-
-# Persona 2
 persona2 = Deivib("Deivib", "Ecuatoriano", "Carton")
 
 
-# Mostramos los datos de la persona creada con el método datos
-# Mostramos los datos de la persona 1
 print("Nache = ", persona1.datos())
-
-# Mostramos los datos de la persona 2
 print("Nache = ", persona2.datos())

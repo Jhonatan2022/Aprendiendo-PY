@@ -1,7 +1,3 @@
-# Calcularemos la velocidad de subida y bajada de nuestra conexión a internet. Para ello utilizaremos la librería speedtest-cli. Para instalarla ejecutamos el siguiente comando en la terminal:
-# pip install speedtest-cli
-
-# Importamos la librería
 import speedtest
 
 # Creamos el objeto

@@ -9,9 +9,7 @@ print("Calculando")
 def progreso(progress, total):
     # Determinamos cuanto porcentaje queremos que cargue
     porcentaje = 50 * (progress / float(total))
-    # Definimos la barra de carga
     # También lo podemos remplazar por la siguiente linea teniendo como resultado la carga pero sin el color
-    """barrra = '|' * int(porcentaje) + '-' * (100 - int (porcentaje))"""
     barrra = (Back.BLUE + " " + Back.RESET) * int(porcentaje) + "-" * (
         100 - int(porcentaje)
     )

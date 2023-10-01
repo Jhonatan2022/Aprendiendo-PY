@@ -1,5 +1,3 @@
-# Fizz Fuzz
-# Imprimir los números del 1 al 100
 for num in range(1, 101):
     # Si el número es divisible entre 3 y 5, imprimir FizzBuzz
     if num % 15 == 0:

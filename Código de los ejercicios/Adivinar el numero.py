@@ -1,9 +1,7 @@
 import random
 
-
 print("Adivina el número\n", "Tienes 5 intentos")
 print()
-
 
 # función para adivinar el número
 def adivinar_numero():
@@ -44,6 +42,4 @@ def adivinar_numero():
         print("Perdiste")
         print("El número era", numero)
 
-
-# llamar a la función
 adivinar_numero()

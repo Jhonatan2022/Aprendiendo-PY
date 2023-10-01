@@ -1,4 +1,3 @@
-# Descripción: Cronometro de segundos
 import time
 
 

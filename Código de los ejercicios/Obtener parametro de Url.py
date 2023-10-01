@@ -3,7 +3,6 @@ def valordespuesdemetro(link):
     # Creamos una lista donde se guardarán los valores de la URL
     lista = []
 
-    # Separamos los valores de la URL por el signo de interrogación
     # Split devuelve una lista con los valores que se encuentran entre los caracteres que se le pasan
     valores = link.split("?")[1].split("&")
 
